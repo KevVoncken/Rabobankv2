@@ -1,0 +1,16 @@
+com\voncken\lostandfound\Contracts\IStorageService.class
+com\voncken\lostandfound\LostandfoundApplication.class
+com\voncken\lostandfound\Services\WebSecurityConfigService.class
+com\voncken\lostandfound\Contracts\IUserClaimService.class
+com\voncken\lostandfound\Repositories\States\UserClaimState.class
+com\voncken\lostandfound\Services\Exceptions\StorageException.class
+com\voncken\lostandfound\Services\UserClaimService.class
+com\voncken\lostandfound\Services\FileSystemStorageService.class
+com\voncken\lostandfound\Controllers\LostUploadController.class
+com\voncken\lostandfound\Repositories\LostItemRepository.class
+com\voncken\lostandfound\Services\StorageProperties.class
+com\voncken\lostandfound\Contracts\ILostItemService.class
+com\voncken\lostandfound\Repositories\States\LostItemState.class
+com\voncken\lostandfound\Repositories\UserClaimRepository.class
+com\voncken\lostandfound\Services\Exceptions\StorageFileNotFoundException.class
+com\voncken\lostandfound\Services\LostItemService.class

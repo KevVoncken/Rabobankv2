@@ -1,0 +1,16 @@
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Contracts\ILostItemService.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Contracts\IStorageService.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Contracts\IUserClaimService.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Controllers\LostUploadController.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\LostandfoundApplication.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Repositories\LostItemRepository.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Repositories\States\LostItemState.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Repositories\States\UserClaimState.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Repositories\UserClaimRepository.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Services\Exceptions\StorageException.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Services\Exceptions\StorageFileNotFoundException.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Services\FileSystemStorageService.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Services\LostItemService.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Services\StorageProperties.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Services\UserClaimService.java
+c:\Users\kevin\Rabobankv2\lostandfound\src\main\java\com\voncken\lostandfound\Services\WebSecurityConfigService.java
