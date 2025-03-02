@@ -12,17 +12,12 @@ The application uses Spring Security for authentication and includes basic endpo
 ## Table of Contents
 
 1. [Features](#features)  
-2. [Technologies Used](#technologies-used)  
-3. [Prerequisites](#prerequisites)  
-4. [Setup & Installation](#setup--installation)  
-5. [Running the Application](#running-the-application)  
-6. [Project Structure](#project-structure)  
-7. [Endpoints Overview](#endpoints-overview)  
-8. [Usage](#usage)  
-9. [Contributing](#contributing)  
-10. [License](#license)
-
----
+2. [Prerequisites](#prerequisites)  
+3. [Setup & Installation](#setup--installation)  
+4. [Running the Application](#running-the-application)  
+5. [Logging in](#logging-in)  
+6. [Endpoints Overview](#endpoints-overview)  
+7. [Usage](#usage)  
 
 ## Features
 
@@ -35,14 +30,10 @@ The application uses Spring Security for authentication and includes basic endpo
   - Allows users to claim lost items by specifying an item ID and quantity.  
   - Return JSON of all claimed items via `/claimedItems`.  
 
----
-
 ## Prerequisites
 
 - **Java**: Make sure you have Java 21 installed.
 - **Maven**: Ensure you have Maven 3.x installed 
-
----
 
 ## Setup & Installation
 
@@ -77,54 +68,11 @@ You can chose to login in as admin or as user, for this demo I created three use
 - An admin can add new lost items and see who has claimed which item
 
 ## Logins:
-Username: admin
-Password: admin
-Username: user
-Password: password
-Username: userTwo
-Password: passwordTwo
-Username: userThree
-Password: passwordThree
+- Username: admin & Password: admin
+- Username: user & Password: password
+- Username: userTwo & Password: passwordTwo
+- Username: userThree & Password: passwordThree
 
----
-
-## Project Structure
-
-A simplified view of the key folders and files:
-
-```
-lostandfound
-├─ src
-│  └─ main
-│     ├─ java
-│     │  └─ com.voncken.lostandfound
-│     │     ├─ Contracts
-│     │     │  ├─ ILostItemService.java
-│     │     │  ├─ IStorageService.java
-│     │     │  └─ IUserClaimService.java
-│     │     ├─ Controllers
-│     │     │  └─ LostUploadController.java 
-│     │     ├─ Repositories
-│     │     │  ├─ LostItemRepository.java
-│     │     │  ├─ States
-│     │     │  │  ├─ LostItemState.java
-│     │     │  │  └─ UserClaimState.java
-│     │     │  └─ UserClaimRepository.java
-│     │     ├─ Services
-│     │     │  ├─ StorageService.java
-│     │     │  ├─ LostItemService.java
-│     │     │  └─ Exceptions
-│     │     │     └─ StorageFileNotFoundException.java
-│     │     └─ LostandfoundApplication.java
-│     └─ resources
-│        ├─ templates
-│        │  ├─ login.html
-│        │  └─ uploadForm.html
-│        └─ application.properties
-└─ pom.xml
-```
-
----
 
 ## Endpoints Overview
 
